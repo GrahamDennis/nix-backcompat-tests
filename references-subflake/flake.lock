@@ -1,0 +1,31 @@
+{
+  "nodes": {
+    "nix-backcompat-tests": {
+      "flake": false,
+      "locked": {
+        "dir": "trivial-subflake",
+        "lastModified": 1763962628,
+        "narHash": "sha256-8BBLPfj3LM172zhwo7dga6CyYGKkdI1lwoPBbdAWKbI=",
+        "ref": "main",
+        "rev": "3adb36c2154b22d4e06ff0a4d68a4c6c77f494cc",
+        "revCount": 9,
+        "type": "git",
+        "url": "ssh://git@github.com/GrahamDennis/nix-backcompat-tests?dir=trivial-subflake"
+      },
+      "original": {
+        "dir": "trivial-subflake",
+        "ref": "main",
+        "rev": "3adb36c2154b22d4e06ff0a4d68a4c6c77f494cc",
+        "type": "git",
+        "url": "ssh://git@github.com/GrahamDennis/nix-backcompat-tests?dir=trivial-subflake"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nix-backcompat-tests": "nix-backcompat-tests"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

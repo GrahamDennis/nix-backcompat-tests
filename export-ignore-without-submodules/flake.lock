@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "babeld": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1730717835,
+        "narHash": "sha256-O44+xtDb2tQC3fWAf8DCoGpCzuEua9watccodNPZHVg=",
+        "ref": "refs/heads/master",
+        "rev": "950992f282d6139ce543f225564a35ac564ca1c2",
+        "revCount": 2025,
+        "type": "git",
+        "url": "ssh://git@github.com/jech/babeld"
+      },
+      "original": {
+        "rev": "950992f282d6139ce543f225564a35ac564ca1c2",
+        "type": "git",
+        "url": "ssh://git@github.com/jech/babeld"
+      }
+    },
+    "root": {
+      "inputs": {
+        "babeld": "babeld"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

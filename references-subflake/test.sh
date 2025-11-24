@@ -1,5 +1,7 @@
 #!/bin/bash
 
+nix flake lock --update-input nix-backcompat-tests
+
 EXPECTED_ORIGINAL_URL="ssh://git@github.com/GrahamDennis/nix-backcompat-tests?dir=trivial-subflake"
 ORIGINAL_URL="$(jq -r '.nodes."nix-backcompat-tests".original.url' flake.lock)"
 

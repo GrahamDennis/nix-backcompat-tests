@@ -2,10 +2,14 @@
 
 set -euo pipefail
 
+rm -rf ~/.cache/nix
+
 EXPECTED_OUT_PATH=/nix/store/95dmx8z9p79m7q4lzb0cypgh0x8cbmx9-source
 EVAL_OUT_PATH=$(nix eval --raw .#babeld.outPath)
 
 [[ "$EVAL_OUT_PATH" == "$EXPECTED_OUT_PATH" ]] || echo "outPath mismatch: got $EVAL_OUT_PATH expected $EXPECTED_OUT_PATH"
+
+rm -rf ~/.cache/nix
 
 nix flake lock --update-input babeld
 

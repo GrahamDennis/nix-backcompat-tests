@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf ~/.cache/nix
+
 nix flake lock --update-input nix-backcompat-tests
 
 EXPECTED_ORIGINAL_URL="ssh://git@github.com/GrahamDennis/nix-backcompat-tests?dir=trivial-subflake"

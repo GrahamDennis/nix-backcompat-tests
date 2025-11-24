@@ -2,10 +2,14 @@
 
 set -euo pipefail
 
+rm -rf ~/.cache/nix
+
 EXPECTED_OUT_PATH=/nix/store/5rkdanj45rgd2r4lzxfp6wgywf64x442-source
 EVAL_OUT_PATH=$(nix eval --raw .#curl.outPath)
 
 [[ "$EVAL_OUT_PATH" == "$EXPECTED_OUT_PATH" ]] || echo "outPath mismatch: got $EVAL_OUT_PATH expected $EXPECTED_OUT_PATH"
+
+rm -rf ~/.cache/nix
 
 nix flake lock --update-input curl
 

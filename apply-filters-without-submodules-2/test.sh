@@ -2,10 +2,14 @@
 
 set -euo pipefail
 
+rm -rf ~/.cache/nix
+
 EXPECTED_OUT_PATH=/nix/store/mr2dmlqa4sjhn51gbg92zbid7732jjmd-source
 EVAL_OUT_PATH=$(nix eval --raw .#example-submodules.outPath)
 
 [[ "$EVAL_OUT_PATH" == "$EXPECTED_OUT_PATH" ]] || echo "outPath mismatch: got $EVAL_OUT_PATH expected $EXPECTED_OUT_PATH"
+
+rm -rf ~/.cache/nix
 
 nix flake lock --update-input example-submodules
 

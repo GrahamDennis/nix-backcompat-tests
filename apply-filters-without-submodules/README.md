@@ -1,0 +1,1 @@
+Validates behaviour when a flake input requires applyFilters=true and no submodules

@@ -1,0 +1,1 @@
+Validates behaviour when a flake input requires exportIgnore=true and no submodules

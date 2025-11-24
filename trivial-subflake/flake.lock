@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "root": {
+      "inputs": {
+        "without-submodules": "without-submodules"
+      }
+    },
+    "without-submodules": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1763960505,
+        "narHash": "sha256-7pbx12IYLUxtIpkvH0ayYSwfJIZUiP9FrR+T9/3UdtU=",
+        "ref": "main",
+        "rev": "83db26bcc048e785c6816541bb7e94f6c633d7e8",
+        "revCount": 2,
+        "type": "git",
+        "url": "ssh://git@github.com/GrahamDennis/example-without-submodules"
+      },
+      "original": {
+        "ref": "main",
+        "rev": "83db26bcc048e785c6816541bb7e94f6c633d7e8",
+        "type": "git",
+        "url": "ssh://git@github.com/GrahamDennis/example-without-submodules"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

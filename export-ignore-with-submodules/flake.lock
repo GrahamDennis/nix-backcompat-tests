@@ -5,7 +5,7 @@
       "locked": {
         "lastModified": 1730717835,
         "narHash": "sha256-AvCUtp99eucPK0/ZW0fLxPvYwVlnYdQTgvxMGTVmw88=",
-        "ref": "refs/heads/master",
+        "ref": "master",
         "rev": "950992f282d6139ce543f225564a35ac564ca1c2",
         "revCount": 2025,
         "submodules": true,
@@ -13,6 +13,7 @@
         "url": "ssh://git@github.com/jech/babeld"
       },
       "original": {
+        "ref": "master",
         "rev": "950992f282d6139ce543f225564a35ac564ca1c2",
         "submodules": true,
         "type": "git",

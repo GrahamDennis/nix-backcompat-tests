@@ -5,13 +5,14 @@
       "locked": {
         "lastModified": 1763960530,
         "narHash": "sha256-J1BfVBRPqd8R8WgAebQ7sBj6gKwsbeEvwiTV7zcCazk=",
-        "ref": "refs/heads/main",
+        "ref": "main",
         "rev": "f36b04115d600cdfd44008b4095baee5ac3173c1",
         "revCount": 2,
         "type": "git",
         "url": "ssh://git@github.com/GrahamDennis/example-submodules"
       },
       "original": {
+        "ref": "main",
         "rev": "f36b04115d600cdfd44008b4095baee5ac3173c1",
         "type": "git",
         "url": "ssh://git@github.com/GrahamDennis/example-submodules"

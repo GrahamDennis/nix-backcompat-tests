@@ -1,6 +1,6 @@
 {
   inputs = {
-    curl.url = "git+ssh://git@github.com/curl/curl?rev=4d04a0301629d1d37476e312202c0c62b5db309e";
+    curl.url = "git+ssh://git@github.com/curl/curl?ref=master&rev=4d04a0301629d1d37476e312202c0c62b5db309e";
     curl.flake = false;
   };
 

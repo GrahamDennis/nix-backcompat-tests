@@ -1,0 +1,30 @@
+{
+  "nodes": {
+    "example-submodules": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1763960530,
+        "narHash": "sha256-KsAx5rAo70Rewf3DhDaZSoqT/K/98V8pT1/151G2FEE=",
+        "ref": "refs/heads/main",
+        "rev": "f36b04115d600cdfd44008b4095baee5ac3173c1",
+        "revCount": 2,
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/GrahamDennis/example-submodules"
+      },
+      "original": {
+        "rev": "f36b04115d600cdfd44008b4095baee5ac3173c1",
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/GrahamDennis/example-submodules"
+      }
+    },
+    "root": {
+      "inputs": {
+        "example-submodules": "example-submodules"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

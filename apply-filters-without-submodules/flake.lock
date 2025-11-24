@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "curl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1763938264,
+        "narHash": "sha256-NGVF5fEb/vK8VnLIrP80P/cOYbURf/nS3VVrZA9AXGo=",
+        "ref": "refs/heads/master",
+        "rev": "4d04a0301629d1d37476e312202c0c62b5db309e",
+        "revCount": 36991,
+        "type": "git",
+        "url": "ssh://git@github.com/curl/curl"
+      },
+      "original": {
+        "rev": "4d04a0301629d1d37476e312202c0c62b5db309e",
+        "type": "git",
+        "url": "ssh://git@github.com/curl/curl"
+      }
+    },
+    "root": {
+      "inputs": {
+        "curl": "curl"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

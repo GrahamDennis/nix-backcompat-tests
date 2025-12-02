@@ -1,0 +1,1 @@
+Validates behaviour of calling `builtins.path` leveraging a nix package that contains symlinks.
